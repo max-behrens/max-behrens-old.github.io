@@ -6,13 +6,31 @@
 #name{
 	font-size: 5em;
 	font-weight: bold;
-	
 }
 
 #subtitle{
 	font-weight: normal;
-
 }
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.socials{
+	text-align: center;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	font-size: 3em;
+}
+
+.socials i{
+	padding: 0px 20px;
+}
+
+
 
 .content{
 	align-items: center;
@@ -41,7 +59,9 @@ header{
 .navbar{
 	float: right;
 	list-style-type: none;
-	margin-top: 5vw;
+	margin-right: 5vw;
+	margin-top: 2.5vw;
+	font-size: 1.314195em;
 }
 
 .navbar-item{
@@ -79,8 +99,5 @@ body{
 	display: grid;
 	grid-template-columns: repeat(4, 25vw);
 	grid-template-rows: repeat(4, 25vh);
-
-	
-
 }
 
