@@ -15,7 +15,7 @@ html {
 	grid-row-end: 4;
 	
 
-	font-size: 24px;
+	font-size: 1.2em;
 }
 
 .parallax{
@@ -143,8 +143,8 @@ body{
 	body {
         height:100vh;
 		margin: auto;
-	overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
+		overflow-y: scroll;
+    	-webkit-overflow-scrolling:touch;
     }
 
 	#name {
@@ -168,8 +168,8 @@ body{
 	
 	body {
         height:100vh;
-	overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
+		overflow-y: scroll;
+    	-webkit-overflow-scrolling:touch;
     }
 
 	#name {
