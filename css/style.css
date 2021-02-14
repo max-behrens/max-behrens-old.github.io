@@ -119,6 +119,10 @@ header{
 
 
 body{
+	transition: height 1000000s ease;
+	-webkit-transition: height 1000000s ease;
+	-moz-transition: height 1000000s ease;
+	-o-transition: height 1000000s ease;
 	max-height: 100vh;
 	margin: auto;
 	overflow-y: scroll;
