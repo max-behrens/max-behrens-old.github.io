@@ -4,6 +4,10 @@
 	font-family: 'Oswald', sans-serif;
 }
 
+html {
+	overflow: hidden;
+}
+
 .container {
 	grid-column-start: 1;
 	grid-column-end: 5;
@@ -116,6 +120,8 @@ header{
 body{
 	max-height: 90vh;
 	margin: auto;
+	overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 	
 	background-image: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png);
 	background-size: cover;
