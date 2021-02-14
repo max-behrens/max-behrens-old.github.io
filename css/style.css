@@ -15,9 +15,9 @@
 
 .parallax{
 	background: url(../home-img.png) no-repeat center;
-	background-size: fixed;
+	background-size: cover;
 	background-attachment: fixed;
-	height: 4000px;
+	height: 2000px;
 }
 #name{
 	font-size: 7em;
@@ -117,7 +117,7 @@ body{
 	margin: auto;
 	
 	background-image: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png);
-	background-size: cover;
+	background-size: fixed;
 	background-position: center;
 	background-position-y: fixed;
 	background-repeat: no-repeat;
