@@ -22,7 +22,7 @@ html {
 	background: url(../home-img.png) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 2000px;
+	height: 4000px;
 }
 #name{
 	font-size: 7em;
