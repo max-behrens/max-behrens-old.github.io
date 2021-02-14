@@ -9,6 +9,7 @@ html {
 }
 
 .container {
+	
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row-start: 1;
@@ -19,6 +20,7 @@ html {
 }
 
 .parallax{
+	overflow: hidden;
 	background: url(../home-img.png) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -32,6 +34,11 @@ html {
 #subtitle{
 	font-weight: normal;
 	font-size: 2.35em;
+}
+
+#parallax_about{
+	margin: 2em;
+
 }
 
 a{
@@ -138,6 +145,60 @@ body{
 	grid-template-rows: repeat(4, 25vh);
 
 	
+}
+
+@media (max-width: 1200px) {
+
+
+	
+	body {
+        height:100vh;
+		margin: auto;
+	
+    }
+
+	#name {
+		font-size: 5em;
+	}
+
+	#subtitle {
+		font-size: 2.5em;
+	}
+
+	.navbar {
+		font-size: 1.25em;
+	}
+
+	.parallax{
+		height: 4000px;
+	}
+}
+
+@media (max-width: 500px) {
+
+
+	
+	body {
+        height:100vh;
+    }
+
+	#name {
+		font-size: 5em;
+		grid-column-start: 1;
+		grid-column-end: 5;
+	}
+
+	#subtitle {
+		font-size: 2.5em;
+	}
+
+	.navbar {
+		font-size: 3em;
+	}
+
+	.parallax{
+		height: 4000px;
+	}
 }
 
 
