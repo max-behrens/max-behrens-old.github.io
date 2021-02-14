@@ -10,7 +10,6 @@
 	grid-row-start: 1;
 	grid-row-end: 4;
 	
-	
 	font-size: 24px;
 }
 
@@ -18,7 +17,7 @@
 	background: url(../home-img.png) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 2000px;
+	height: 4000px;
 }
 #name{
 	font-size: 7em;
@@ -120,6 +119,7 @@ body{
 	background-image: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png);
 	background-size: cover;
 	background-position: center;
+	background-position-y: fixed;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: grid;
