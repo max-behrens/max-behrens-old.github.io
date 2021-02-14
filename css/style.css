@@ -10,6 +10,7 @@
 	grid-row-start: 1;
 	grid-row-end: 4;
 	
+
 	font-size: 24px;
 }
 
@@ -117,13 +118,18 @@ body{
 	margin: auto;
 	
 	background-image: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png);
-	background-size: fixed;
+	background-size: cover;
 	background-position: center;
-	background-position-y: fixed;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: grid;
 	grid-template-columns: repeat(4, 25vw);
 	grid-template-rows: repeat(4, 25vh);
+}
+
+@media (max-width: 768px) {
+    body {
+        height:100vh;
+    }
 }
 
