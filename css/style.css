@@ -134,7 +134,7 @@ body{
 	grid-template-rows: repeat(4, 25vh);
 }
 
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
 
 	html {
 		overflow: hidden;
