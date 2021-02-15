@@ -180,12 +180,12 @@ header{
 
 .xop-img-1 {
 	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-	url(../images/converter.jpg);
+	url(../images/converter.png);
 }
 
 .xop-img-2 {
 	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-	url(../images/gallium.jpg);
+	url(../images/portfolio.png);
 }
 
 .xop-img-3 {
@@ -195,7 +195,7 @@ header{
 
 .xop-img-4 {
 	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-	url(../images/4.png);
+	url(../images/Stability.png);
 }
 
 .xop-info {
