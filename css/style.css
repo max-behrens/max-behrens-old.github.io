@@ -238,7 +238,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	display: grid;
 	grid-template-columns: repeat(4, 25vw);
 	grid-template-rows: repeat(4, 25vh);
@@ -249,18 +249,7 @@ body{
 
 @media (max-width: 1200px) {
 
-
-	html {
-		height: calc(100vh + 2000px);
-      min-height: calc(100vh + 2000px);
-	}
-
-	.xop-section {
-		max-width: 1000px;
-		margin: 0 auto;
-		padding: 0% 0%;
-		z-index: -1;
-	}
+	
 
 
 	
