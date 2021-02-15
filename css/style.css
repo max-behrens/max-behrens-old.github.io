@@ -5,7 +5,6 @@
 }
 
 html {
-	overflow: hidden;
 }
 
 .container {
@@ -20,7 +19,6 @@ html {
 }
 
 .parallax{
-	overflow: hidden;
 	background: url(../home-img.png) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -224,6 +222,7 @@ header{
 
 body{
 	
+	overflow: hidden;
 	max-height: 100vh;
 	margin: auto;
 	overflow-y: scroll;
