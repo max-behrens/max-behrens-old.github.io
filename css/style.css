@@ -250,6 +250,19 @@ body{
 @media (max-width: 1200px) {
 
 
+	html {
+		height: calc(100vh + 2000px);
+      min-height: calc(100vh + 2000px);
+	}
+
+	.xop-section {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 0% 0%;
+		z-index: -1;
+	}
+
+
 	
 	body {
         max-height:100vh;
@@ -280,7 +293,8 @@ body{
 @media (max-width: 500px) {
 
 	html {
-		height: 100vh;
+		height: calc(100vh + 2000px);
+      min-height: calc(100vh + 2000px);
 	}
 
 	.xop-section {
