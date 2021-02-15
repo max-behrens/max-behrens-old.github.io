@@ -5,7 +5,7 @@
 }
 
 html {
-	min-height: 100vh;
+	height: 100vh;
 }
 
 .container {
@@ -279,7 +279,9 @@ body{
 
 @media (max-width: 500px) {
 
-	
+	html {
+		height: 100vh;
+	}
 
 	
 	body {
