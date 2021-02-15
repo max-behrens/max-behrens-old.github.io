@@ -78,6 +78,7 @@ a{
 	grid-row-start: 2;
 	grid-row-end: 4;
 	text-align: center;
+	overflow: hidden;
 	
 	
 }
