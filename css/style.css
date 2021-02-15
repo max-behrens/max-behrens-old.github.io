@@ -269,6 +269,12 @@ body{
 	.parallax{
 		height: 4000px;
 	}
+
+	.xop-grid-li {
+		width: 500px;
+		height: 500px;
+		margin: 100px;
+	}
 }
 
 @media (max-width: 500px) {
@@ -280,17 +286,17 @@ body{
     }
 
 	#name {
-		font-size: 5em;
+		font-size: 3em;
 		grid-column-start: 1;
 		grid-column-end: 5;
 	}
 
 	#subtitle {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 
 	.navbar {
-		font-size: 1.35em;
+		font-size: 1.20em;
 	}
 
 	.parallax{
@@ -298,8 +304,9 @@ body{
 	}
 
 	.xop-grid-li {
-		width: 500px;
-		height: 500px;
+		width: 328px;
+		height: 328px;
+		margin: 20px;
 	}
 }
 
