@@ -8,6 +8,23 @@ html {
 	height: 100vh;
 }
 
+.image-hero-area {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	margin: 0;
+	background: url(../home-img.png) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
 .container {
 	
 	grid-column-start: 1;
@@ -285,6 +302,24 @@ body{
 		height: calc(100vh + 2000px);
       min-height: calc(100vh + 2000px);
 	}
+
+	.image-hero-area {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		margin: 0;
+		background: url(../home-img.png) center center no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		}
+	
 
 	.xop-section {
 		max-width: 1000px;
