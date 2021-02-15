@@ -283,6 +283,13 @@ body{
 		height: 100vh;
 	}
 
+	.xop-section {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 0% 0%;
+		z-index: -1;
+	}
+
 	
 	body {
 		
