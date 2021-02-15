@@ -178,22 +178,22 @@ header{
 }
 
 .xop-img-1 {
-	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.10)),
 	url(../images/converter.png);
 }
 
 .xop-img-2 {
-	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.10)),
 	url(../images/portfolio.png);
 }
 
 .xop-img-3 {
-	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.10)),
 	url(../images/jazzman.jpg);
 }
 
 .xop-img-4 {
-	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.10)),
 	url(../images/Stability.png);
 }
 
