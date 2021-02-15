@@ -91,6 +91,7 @@ header{
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 2;
+	overflow: hidden;
 }
 
 .navbar{
@@ -101,6 +102,7 @@ header{
 	margin-top: 2.5vw;
 	font-size: 1.314195em;
 	z-index: 1;
+	overflow: hidden;
 }
 
 .navbar-item{
