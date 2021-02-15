@@ -5,7 +5,6 @@
 }
 
 html {
-	overflow: hidden;
 }
 
 .container {
@@ -17,6 +16,7 @@ html {
 	
 
 	font-size: 1.2em;
+	overflow: hidden;
 }
 
 .parallax{
