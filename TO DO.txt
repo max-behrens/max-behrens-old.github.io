@@ -1,0 +1,2 @@
+javascript force page to top after refresh
+highlight navbar item when the section is reached by scrolling

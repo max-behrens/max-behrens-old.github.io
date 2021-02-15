@@ -100,6 +100,7 @@ header{
 	margin-right: 5vw;
 	margin-top: 2.5vw;
 	font-size: 1.314195em;
+	z-index: 1;
 }
 
 .navbar-item{
@@ -130,6 +131,7 @@ header{
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 6% 2%;
+	z-index: -1;
 }
 
 .xop-grid{
@@ -139,15 +141,18 @@ header{
 	display: block;
 	text-align: center;
 	width: 100%;
+	z-index: -1;
 }
 
 .xop-grid:after {
 	clear: both;
+	z-index: -1;
 }
 
 .xop-grid:after, .xop-box:before {
 	content: "";
 	display: table;
+	z-index: -1;
 }
 
 .xop-grid li {
@@ -155,6 +160,7 @@ header{
 	height: 328px;
 	display: inline-block;
 	margin: 20px;
+	z-index: -1;
 }
 
 .xop-box {
@@ -196,6 +202,7 @@ header{
 	position: absolute;
 	width: inherit;
 	height: inherit;
+	z-index: -1;
 }
 
 .xop-info h3 {
@@ -206,11 +213,13 @@ header{
 	margin: 0 30px;
 	padding: 100px 0 0 0;
 	line-height: 1.5;
+	z-index: -1;
 }
 
 .xop-info p {
 	font-family: 'Oswald', sans-serif;
 	color: #fff;
+	z-index: -1;
 }
 
 body{
@@ -282,7 +291,12 @@ body{
 	}
 
 	.parallax{
-		height: 2000px;
+		height: 4000px;
+	}
+
+	.xop-grid-li {
+		width: 500px;
+		height: 500px;
 	}
 }
 
