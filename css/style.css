@@ -5,6 +5,7 @@
 }
 
 html {
+	min-height: 100vh;
 }
 
 .container {
@@ -228,6 +229,7 @@ body{
 	
 	overflow: hidden;
 	max-height: 100vh;
+	min-height: 100vh;
 	margin: auto;
 	overflow-y: scroll;
     -webkit-overflow-scrolling:touch;
@@ -240,6 +242,7 @@ body{
 	display: grid;
 	grid-template-columns: repeat(4, 25vw);
 	grid-template-rows: repeat(4, 25vh);
+	z-index: -10;
 
 	
 }
@@ -249,7 +252,8 @@ body{
 
 	
 	body {
-        height:100vh;
+        max-height:100vh;
+		min-height: 100vh;
 		margin: auto;
 	
     }
@@ -270,19 +274,18 @@ body{
 		height: 4000px;
 	}
 
-	.xop-grid-li {
-		width: 500px;
-		height: 500px;
-		margin: 100px;
-	}
+	
 }
 
 @media (max-width: 500px) {
 
+	
 
 	
 	body {
-        height:100vh;
+		
+        max-height:100vh;
+		min-height: 100vh;
     }
 
 	#name {
@@ -303,11 +306,6 @@ body{
 		height: 4000px;
 	}
 
-	.xop-grid-li {
-		width: 328px;
-		height: 328px;
-		margin: 20px;
-	}
 }
 
 
