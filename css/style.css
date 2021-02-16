@@ -267,30 +267,18 @@ body{
 @media (max-width: 500px) {
 
 	html {
-		height: calc(100vh + 2000px);
-      	min-height: calc(100vh + 2000px);
+		
 	}
 
-	.image-hero-area {
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		min-width: 100%;
-		min-height: 100%;
-		width: auto;
-		height: auto;
-		z-index: -100;
-		margin: 0;
-		background: url(../home-img.png) center center no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		}
+	
 
 	.navbar-item{
 		display: inline-block;
 		padding: 5px;
+	}
+
+	.navbar{
+		position: fixed;
 	}
 
 
@@ -305,44 +293,7 @@ body{
 
 	
 	
-	.xop-grid{
-		
-		z-index: -1;
-	}
 	
-	.xop-grid:after {
-		
-		z-index: -1;
-	}
-	
-	.xop-grid:after, .xop-box:before {
-	
-		z-index: -1;
-	}
-	
-	.xop-grid li {
-		
-		z-index: -1;
-	}
-	
-	.xop-box {
-		z-index: -0.25;
-	}
-
-	.xop-info {
-	
-		z-index: -1;
-	}
-	
-	.xop-info h3 {
-	
-		z-index: -1;
-	}
-	
-	.xop-info p {
-		
-		z-index: -1;
-	}
 
 	
 	body {
@@ -356,6 +307,7 @@ body{
 		font-size: 3em;
 		grid-column-start: 1;
 		grid-column-end: 5;
+		grid-row-start: 2;
 	}
 
 	#subtitle {
