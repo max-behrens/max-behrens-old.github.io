@@ -319,6 +319,13 @@ body{
 		-o-background-size: cover;
 		background-size: cover;
 		}
+
+	.navbar-item{
+		display: inline-block;
+		padding: 5px;
+	}
+
+
 	
 
 	.xop-section {
