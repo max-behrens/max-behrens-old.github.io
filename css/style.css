@@ -8,22 +8,6 @@ html {
 	height: 100vh;
 }
 
-.image-hero-area {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	margin: 0;
-	background: url(../home-img.png) center center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	}
 
 .container {
 	
@@ -102,14 +86,22 @@ a{
 }
 
 header{
+	overflow: hidden;
 	padding: 0 10px;
-	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
+	position: fixed;
+	margin: auto;
+	overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
+	
+	background-image: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png);
+	background-attachment: scroll;
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	overflow: hidden;
+	
 }
 
 .navbar{
@@ -244,18 +236,8 @@ header{
 
 body{
 	
-	overflow: hidden;
 	max-height: 100vh;
 	min-height: 100vh;
-	margin: auto;
-	overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
-	
-	background-image: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
 	display: grid;
 	grid-template-columns: repeat(4, 25vw);
 	grid-template-rows: repeat(4, 25vh);
