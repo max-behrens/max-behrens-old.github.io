@@ -4,9 +4,6 @@
 	font-family: 'Oswald', sans-serif;
 }
 
-html {
-	height: 100vh;
-}
 
 
 .container {
@@ -15,18 +12,17 @@ html {
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 4;
-	
-
+	overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
+	background-attachment: scroll;
 	font-size: 1.2em;
-	
-}
-
-.parallax{
-	background: url(../home-img.png) no-repeat center;
+	height: 100vh;
+	background: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png) no-repeat center;	
 	background-size: cover;
 	background-attachment: fixed;
-	height: 4000px;
+	
 }
+
 #name{
 	font-size: 7em;
 	font-weight: bold;
@@ -37,8 +33,11 @@ html {
 	font-size: 2.35em;
 }
 
-#parallax_about{
+#about{
 	margin: 2em;
+	font-weight: normal;
+	font-size: 2.35em;
+	text-align: center;
 
 }
 
@@ -60,6 +59,7 @@ a{
 	grid-row-start: 4;
 	grid-row-end: 4;
 	font-size: 4em;
+	z-index: -1;
 }
 
 .socials i{
@@ -80,23 +80,14 @@ a{
 	grid-row-start: 2;
 	grid-row-end: 4;
 	text-align: center;
-	overflow: hidden;
-	
-	
 }
 
 header{
-	overflow: hidden;
-	padding: 0 10px;
-	background-repeat: no-repeat;
-	background-position: center;
-	position: fixed;
-	margin: auto;
-	overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
 	
-	background-image: radial-gradient(rgba(255, 244, 235, 0.397), rgba(211, 124, 98, 0.445)), url(../home-img.png);
-	background-attachment: scroll;
+	padding: 0 10px;
+	
+	
+
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row-start: 1;
@@ -105,14 +96,13 @@ header{
 }
 
 .navbar{
-	position: fixed;
+
 	top: 15px; right: 1px;
 	list-style-type: none;
 	margin-right: 5vw;
-	margin-top: 2.5vw;
+	padding: 4vw;
 	font-size: 1.314195em;
-	z-index: 1;
-	overflow: hidden;
+
 }
 
 .navbar-item{
@@ -136,8 +126,6 @@ header{
 	background-color: #fff;
 	color: #000;
 }
-
-
 
 .xop-section {
 	max-width: 960px;
@@ -235,23 +223,13 @@ header{
 }
 
 body{
-	
-	max-height: 100vh;
-	min-height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(4, 25vw);
 	grid-template-rows: repeat(4, 25vh);
-	z-index: -10;
-
-	
 }
 
 @media (max-width: 1200px) {
 
-	
-
-
-	
 	body {
         max-height:100vh;
 		min-height: 100vh;
@@ -265,6 +243,14 @@ body{
 
 	#subtitle {
 		font-size: 2.5em;
+	}
+
+	#about{
+		margin: 2em;
+		font-weight: normal;
+		font-size: 1.5em;
+		text-align: center;
+	
 	}
 
 	.navbar {
@@ -282,7 +268,7 @@ body{
 
 	html {
 		height: calc(100vh + 2000px);
-      min-height: calc(100vh + 2000px);
+      	min-height: calc(100vh + 2000px);
 	}
 
 	.image-hero-area {
@@ -318,10 +304,52 @@ body{
 	}
 
 	
+	
+	.xop-grid{
+		
+		z-index: -1;
+	}
+	
+	.xop-grid:after {
+		
+		z-index: -1;
+	}
+	
+	.xop-grid:after, .xop-box:before {
+	
+		z-index: -1;
+	}
+	
+	.xop-grid li {
+		
+		z-index: -1;
+	}
+	
+	.xop-box {
+		z-index: -0.25;
+	}
+
+	.xop-info {
+	
+		z-index: -1;
+	}
+	
+	.xop-info h3 {
+	
+		z-index: -1;
+	}
+	
+	.xop-info p {
+		
+		z-index: -1;
+	}
+
+	
 	body {
 		
         max-height:100vh;
 		min-height: 100vh;
+		z-index: -10;
     }
 
 	#name {
@@ -334,8 +362,17 @@ body{
 		font-size: 2em;
 	}
 
+	#about{
+		margin: 2em;
+		font-weight: normal;
+		font-size: 1em;
+		text-align: center;
+	
+	}
+
 	.navbar {
 		font-size: 1.20em;
+		z-index: 1;
 	}
 
 	.parallax{

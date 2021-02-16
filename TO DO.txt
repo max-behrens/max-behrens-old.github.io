@@ -1,2 +1,10 @@
-javascript force page to top after refresh
-highlight navbar item when the section is reached by scrolling
+
+highlight navbar item when the section is reached by scrolling javascript
+onclick event ----- active
+
+burger menu
+
+box behind text
+
+projects behind bav bar
+
