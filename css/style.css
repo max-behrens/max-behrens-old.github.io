@@ -320,6 +320,16 @@ body{
 		z-index: -1;
 	}
 
+	.xop-grid li {
+		width: 328px;
+		height: 328px;
+		
+		display: inline-block;
+		margin: 40px 0px 40px 0px;
+		z-index: -1;
+		
+	}
+
 	
 	
 	
