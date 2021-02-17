@@ -139,20 +139,23 @@ header{
 }
 
 .xop-section {
-	max-width: 960px;
 	margin: 0 auto;
+	padding: 4vw;
+	
 	padding: 6% 2%;
 	z-index: -1;
+	
 }
 
 .xop-grid{
 	margin: 20px 0 0 0;
 	padding: 0;
-	list-style: none;
+	list-style:none;
 	display: block;
 	text-align: center;
 	width: 100%;
 	z-index: -1;
+	
 }
 
 .xop-grid:after {
@@ -169,9 +172,11 @@ header{
 .xop-grid li {
 	width: 328px;
 	height: 328px;
+	
 	display: inline-block;
 	margin: 20px;
 	z-index: -1;
+	
 }
 
 .xop-box {
@@ -179,6 +184,7 @@ header{
 	height: 100%;
 	position: relative;
 	cursor: pointer;
+	
 	border-radius: 10px;
 	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
@@ -192,7 +198,9 @@ header{
 .xop-img-1 {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.10)),
 	url(../images/converter.png);
+	
 }
+
 
 .xop-img-2 {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.10)),
@@ -207,13 +215,16 @@ header{
 .xop-img-4 {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.10)),
 	url(../images/Stability.png);
+	
 }
+
 
 .xop-info {
 	position: absolute;
 	width: inherit;
 	height: inherit;
 	z-index: -1;
+	
 }
 
 .xop-info h3 {
@@ -225,16 +236,19 @@ header{
 	padding: 100px 0 0 0;
 	line-height: 1.5;
 	z-index: -1;
+	
 }
 
 .xop-info p {
 	font-family: 'Oswald', sans-serif;
 	color: #fff;
 	z-index: -1;
+	
 }
 
 body{
 	display: grid;
+	
 	grid-template-columns: repeat(4, 25vw);
 	grid-template-rows: repeat(4, 25vh);
 }
