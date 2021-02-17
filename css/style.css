@@ -13,6 +13,7 @@
 	grid-row-start: 1;
 	grid-row-end: 4;
 	overflow-y: scroll;
+	position: fixed;
     -webkit-overflow-scrolling:touch;
 	background-attachment: scroll;
 	font-size: 1.2em;
@@ -253,6 +254,11 @@ body{
 	grid-template-rows: repeat(4, 25vh);
 }
 
+
+
+
+
+
 @media (max-width: 1200px) {
 
 	body {
@@ -299,7 +305,7 @@ body{
 
 	.navbar-item{
 		display: inline-block;
-		padding: 5px;
+		padding: 0px;
 	}
 
 	
@@ -308,7 +314,7 @@ body{
 	
 
 	.xop-section {
-		max-width: 1000px;
+		max-width: 960px;
 		margin: 0 auto;
 		padding: 0% 0%;
 		z-index: -1;
