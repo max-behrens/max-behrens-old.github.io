@@ -6,6 +6,8 @@
 
 
 
+
+
 .container {
 	
 	grid-column-start: 1;
@@ -29,6 +31,8 @@
 	font-weight: bold;
 }
 
+
+
 #subtitle{
 	font-weight: normal;
 	font-size: 2.35em;
@@ -50,6 +54,7 @@
 
 .about-text{
 	margin-top: 30px;
+	text-align: center;
 
 }
 
@@ -297,9 +302,7 @@ body{
 
 @media (max-width: 500px) {
 
-	html {
-		
-	}
+	
 
 	
 
